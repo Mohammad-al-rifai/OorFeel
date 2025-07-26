@@ -96,7 +96,7 @@
 ### Authentication Flow
 | Splash Screen | Login | Register | Forgot Password |
 |---------------|-------|----------|-----------------|
-| ![Splash](screenshots/Splash _view.png) | ![Login](screenshots/Login_view.png) | ![Register](screenshots/Register_view.png) | ![Forgot Password](screenshots/forget_password_view.png) |
+| ![Splash](screenshots/Splash_view.png) | ![Login](screenshots/Login_view.png) | ![Register](screenshots/Register_view.png) | ![Forgot Password](screenshots/forget_password_view.png) |
 
 ### Main App Flow
 | Home | Categories | Product Details | Search |
