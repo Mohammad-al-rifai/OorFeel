@@ -181,46 +181,7 @@ lib/
 - [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/oorfeel.git
-   cd oorfeel
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure environment**
-   ```bash
-   # Copy environment file
-   cp .env.example .env
-   # Edit with your API endpoints
-   ```
-
-4. **Run the app**
-   ```bash
-   flutter run
-   ```
-
-### Build for Production
-
-```bash
-# Android APK
-flutter build apk --release
-
-# Android App Bundle
-flutter build appbundle --release
-
-# iOS
-flutter build ios --release
-
-# Web
-flutter build web --release
-```
+``
 
 ## 📁 Project Structure
 
@@ -297,63 +258,9 @@ test/
 └── integration/    # Integration tests
 ```
 
-### Running Tests
-```bash
-# Run all tests
-flutter test
-
-# Run specific test file
-flutter test test/unit/auth_test.dart
-
-# Run with coverage
-flutter test --coverage
-```
-
-## 📦 Deployment
-
-### Android Deployment
-1. **Generate keystore**
-   ```bash
-   keytool -genkey -v -keystore ~/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
-   ```
-
-2. **Configure signing**
-   - Add keystore details to `android/key.properties`
-   - Update `android/app/build.gradle`
-
-3. **Build and upload**
-   ```bash
-   flutter build appbundle --release
-   ```
-
-### iOS Deployment
-1. **Configure certificates**
-   - Set up Apple Developer account
-   - Configure signing certificates
-
-2. **Build and archive**
-   ```bash
-   flutter build ios --release
-   ```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add amazing feature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open a Pull Request**
 
 ### Contribution Guidelines
 - Follow the existing code style
@@ -365,9 +272,9 @@ We welcome contributions! Please follow these steps:
 
 ### Contact Information
 - **Developer**: Mohammad AlRefaie
-- **Email**: info@oorfeel.com
-- **Phone**: +97470025268 | +97441454658
-- **Address**: Qatar - Doha - Muaither North, Area No. 53 - Street 615 - Building 65 - First Floor - Office No. 5
+- **Email**: info@oorfeel.com , eng.mohammad.uae@gmail.com
+- **Phone**: +971567561512 | +971567561512
+- **Address**: Qatar - Doha | UAE - Dubai
 
 ### Links
 - 🌐 **Website**: [https://oorfeel.com/](https://oorfeel.com/)
@@ -394,4 +301,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p>Made with ❤️ by <a href="https://oorfeel.com/">OorFeel Team</a></p>
   <p>⭐ Star this repository if you find it helpful!</p>
 </div>
-
